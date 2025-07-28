@@ -1,0 +1,27 @@
+/* app/globals.css */
+:root {
+  /* Light theme */
+  --color-primary: #4f46e5;
+  --color-secondary: #64748b;
+  --color-background: #ffffff;
+  --color-text: #ffffff;
+
+  /* You can also add shades */
+  --color-gray-100: #f3f4f6;
+  --color-gray-900: #111827;
+}
+
+[data-theme="dark"] {
+  --color-primary: #818cf8;
+  --color-secondary: #94a3b8;
+  --color-background: #111827;
+  --color-text: #f9fafb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  overflow: hidden;
+}
